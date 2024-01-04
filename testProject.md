@@ -1,6 +1,6 @@
--Aim
--Design Phase
--Data model & Database
+- Aim
+- Design Phase
+- Data model & Database
 
 ### Aim
 
