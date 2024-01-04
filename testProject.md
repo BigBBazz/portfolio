@@ -1,3 +1,5 @@
+# Daily Learnings
+
 - Aim
 - Design Phase
 - Data model & Database
