@@ -1,3 +1,7 @@
+-Aim
+-Design Phase
+-Data model & Database
+
 ### Aim
 
 The aim of this project was to build a RESTful CRUD web application that allows users to create notes on a topic they are learning. This was the second project that I completed during the Software Engineering Intensive course at General Assembly.
