@@ -1,10 +1,8 @@
 # Daily Learnings
 
-<div markdown="1">
 - Aim
 - Design Phase
 - Data model & Database 
-</div>
 
 ### Aim
 
