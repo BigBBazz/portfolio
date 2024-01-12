@@ -12,6 +12,7 @@ The aim of this project was to build a RESTful CRUD web application that allows 
 
 There is a natural heirachy within any concept. For example, when I started learning JavaScript I studied the concept of asynchronous programming. This concept was be broken up into smaller concepts that can be ordered.
 
+The image below shows the UI of a learning.
 ![alt text](https://github.com/BigBBazz/portfolio/blob/main/currentLearning.png)
 
 ### Data model & Database
