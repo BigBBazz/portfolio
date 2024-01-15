@@ -21,7 +21,6 @@ The route structure of the website consists of a "root" route from which all sub
 - contact
 - portfolio
 
-
 The index route contains the information that is displayed when the user lands on the home page of the website. 
 
 The "about" route contains more detailed information about myself and my career.
@@ -30,12 +29,10 @@ The contact route contains information on how to get in touch with me. It has a 
 
 The portfolio route contains the data on each project.
 
-![alt text](https://github.com/BigBBazz/portfolio/blob/main/currentLearning.png?raw=true)
-
 ## Styling
 
 Styling is done with scss. All scss files a organised within a single folder called "styles". Within the "style" folder there is a single file called "main.scss" and three folders called abstracts, compononts, and routes. Each folder containes a file called "_global.scss" which imports all other scss files within that folder. For example, the components folder contains a scss file for each component, these files are all imported into the "_global.scss" file for that folder. In turn, all the "_global.scss" files are imported into the "main.scss" file. This file is imported into the "App.js" file with applies all the styles to the project.
 
-## Components
-
 ### Data
+
+The data for the project component comes from github. Each project has a markdown file wich is imported into the component and transformed into html using react-markdown.
