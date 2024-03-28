@@ -17,7 +17,7 @@ Rexmix was used to build the portfolio website and Netlify was used for hosting.
 ### Routes
 
 The route structure for this website follows the "conventional route folders" pattern as specified in the Remix documentation:
-\\\
+```
 app/
 ├── routes/
 │   ├── _index/
@@ -31,7 +31,7 @@ app/
 │   ├── projects.$projectId/
 │   │   └── route.tsx
 └── root.tsx
-\\\
+```
 The "index" route contains a brief introduction about myself, links to three of my projects, and a link for my resume.
 
 The "about" route contains more detailed information about myself and my career.
