@@ -1,4 +1,4 @@
-# Personal Website
+# Portfolio Website
 
 - Aim
 - Design Phase
