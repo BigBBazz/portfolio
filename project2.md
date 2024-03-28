@@ -2,36 +2,65 @@
 
 - Aim
 - Design Phase
+- Routes
+- Styling
 - Data
 
 ### Aim
 
-The aim of this project was to build a personal website that could display my projects and resume. The website design should also allow the easy addition of new features such as a blog.
+The aim of this project was to build a personal website that could display my projects and resume.
 
 ### Design Phase
 
-The client side was made with React with client side routing using React-Router. This choice was made because React-Router has powerful features that allows the easy implementation of new features such as a peronal blog. For more information on React-Router see the technical docs or go to the React-Router website.
+Rexmix was used to build the portfolio website and Netlify was used for hosting.
 
-## Routes
+### Routes
 
-The route structure of the website consists of a "root" route from which all subsequent routes a decented from. The root route has an index route which acts as a default route. This displays information when the user is at the "parent" rout without and children routes rendered.
+The route structure for this website follows the "conventional route folders" pattern as specified in the Remix documentation:
 
-- root
-- about
-- contact
-- portfolio
+app/
+├── routes/
+│   ├── _index/
+│   │   ├── LinkTile.tsx
+│   │   └── Modal.tsx
+│   │   └── route.tsx
+│   ├── about/
+│   │   └── route.tsx
+│   ├── contact/
+│   │   └── route.tsx
+│   ├── projects.$projectId/
+│   │   └── route.tsx
+└── root.tsx
 
-The index route contains the information that is displayed when the user lands on the home page of the website. 
+The "index" route contains a brief introduction about myself, links to three of my projects, and a link for my resume.
 
 The "about" route contains more detailed information about myself and my career.
 
-The contact route contains information on how to get in touch with me. It has a build in email request form.
+The "contact" route contains information on how to get in touch with me. It has a build in email request form.
 
-The portfolio route contains the data on each project.
+### Styling
 
-## Styling
+Styling is done with plain css. All css files are organised within a single folder called "styles". 
 
-Styling is done with scss. All scss files a organised within a single folder called "styles". Within the "style" folder there is a single file called "main.scss" and three folders called abstracts, compononts, and routes. Each folder containes a file called "_global.scss" which imports all other scss files within that folder. For example, the components folder contains a scss file for each component, these files are all imported into the "_global.scss" file for that folder. In turn, all the "_global.scss" files are imported into the "main.scss" file. This file is imported into the "App.js" file with applies all the styles to the project.
+app/
+├── routes/
+├── styles/
+
+Within this folder there is a filed called "shared.css" which is imported in the root.tsx.
+The shared css file contains global styles for all parts of the website. If a route contains one or more components a folder named after the route will contain all css files for that route. Otherwise the route css file will not be located in a folder. This is demonstrated in the diagram below.
+
+app/
+├── styles/
+│   ├── _index/
+│   │   ├── index.css
+│   │   ├── LinkTile.css
+│   ├── about/
+│   │   └── route.tsx
+│   ├── contact/
+│   │   └── route.tsx
+│   ├── projects.$projectId/
+│   │   └── route.tsx
+└── root.tsx
 
 ### Data
 
