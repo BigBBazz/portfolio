@@ -41,14 +41,14 @@ The "contact" route contains information on how to get in touch with me. It has 
 ### Styling
 
 Styling is done with plain css. All css files are organised within a single folder called "styles". 
-
+```
 app/
 ├── routes/
 ├── styles/
-
+```
 Within this folder there is a filed called "shared.css" which is imported in the root.tsx.
 The shared css file contains global styles for all parts of the website. If a route contains one or more components a folder named after the route will contain all css files for that route. Otherwise the route css file will not be located in a folder. This is demonstrated in the diagram below.
-
+```
 app/
 ├── styles/
 │   ├── _index/
@@ -61,7 +61,7 @@ app/
 │   ├── projects.$projectId/
 │   │   └── route.tsx
 └── root.tsx
-
+```
 ### Data
 
 The data for the project component comes from github. Each project has a markdown file wich is imported into the component and transformed into html using react-markdown.
