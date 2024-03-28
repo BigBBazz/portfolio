@@ -64,4 +64,4 @@ app/
 ```
 ### Data
 
-The data for the project component comes from github. Each project has a markdown file wich is imported into the component and transformed into html using react-markdown.
+The data for the project component comes from github. Each project has a markdown file wich is imported using "loader" and "useLoaderData" Remix API's.
