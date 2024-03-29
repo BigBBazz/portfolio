@@ -32,13 +32,13 @@ app/
 │   │   └── route.tsx
 └── root.tsx
 ```
-# Root
+### Root
 The root route contains the Header and Footer componants. Between these two is the Outlet component from Remix.
-# Index
+### Index
 The index route contains a brief introduction about myself, links to three of my projects, and a link for my resume.
-# About
+### About
 The about route contains more detailed information about myself and my career.
-# Contact
+### Contact
 The contact route contains information on how to get in touch with me. It has a build in email request form.
 
 ### Styling
