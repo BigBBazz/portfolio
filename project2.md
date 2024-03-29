@@ -12,7 +12,7 @@ The aim of this project was to build a personal website that could display my pr
 
 ### Design Phase
 
-Rexmix was used to build the portfolio website and Netlify was used for hosting.
+Remix was used to build the portfolio website and Netlify was used for hosting. The Remix template from Netlify automatically creates everything you need to deploy to Netlify — including a pre-configured netlify.toml file with typical build settings. For more information visit the documentation on Netlify.
 
 ### Routes
 
@@ -32,11 +32,15 @@ app/
 │   │   └── route.tsx
 └── root.tsx
 ```
-The "index" route contains a brief introduction about myself, links to three of my projects, and a link for my resume.
+# Root
 
-The "about" route contains more detailed information about myself and my career.
-
-The "contact" route contains information on how to get in touch with me. It has a build in email request form.
+# Index
+The index route contains a brief introduction about myself, links to three of my projects, and a link for my resume.
+The project links
+# About
+The about route contains more detailed information about myself and my career.
+# Contact
+The contact route contains information on how to get in touch with me. It has a build in email request form.
 
 ### Styling
 
