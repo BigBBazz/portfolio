@@ -12,7 +12,7 @@ The aim of this project was to build a personal website that could display my pr
 
 ### Design Phase
 
-Remix was used to build the portfolio website and Netlify was used for hosting. The Remix template from Netlify automatically creates everything you need to deploy to Netlify — including a pre-configured netlify.toml file with typical build settings. For more information visit the documentation on Netlify.
+Remix was used to build the portfolio website and Netlify was used for hosting. The Remix template from Netlify automatically created everything needed to deploy to Netlify — including a pre-configured netlify.toml file with typical build settings. For more information visit the documentation on Netlify.
 
 ### Routes
 
