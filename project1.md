@@ -10,7 +10,7 @@ The aim of this project was to build a RESTful CRUD web application that allows 
 
 ### Design Phase
 
-There is a natural heirachy within any concept. For example, when I started learning JavaScript I studied the concept of asynchronous programming. This concept was be broken up into smaller concepts that can be ordered.
+I used Whimsical to create wire frames for the project.
 
 ![alt text](https://github.com/BigBBazz/portfolio/blob/main/currentLearning.png?raw=true)
 
